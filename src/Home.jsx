@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Phone, MapPin, Star, Baby, Heart, Shield, Home, Users, Wifi, Car, ChefHat, Shirt, Check, Menu, X, Award, Clock, Smile, Leaf, Sun, Moon, Calendar, User, Mail, MessageSquare, ArrowRight, PlayCircle, Quote, TrendingUp } from 'lucide-react';
-
+import ayur from "./assets/ayur.png"
 const AyurcareWebsite = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrollY, setScrollY] = useState(0);
@@ -122,16 +122,19 @@ const AyurcareWebsite = () => {
       <nav className="bg-white shadow-lg sticky top-0 z-50 backdrop-blur-md bg-opacity-95">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center space-x-2 animate-fade-in">
-              <div className="relative">
-                <Heart className="w-8 h-8 text-yellow-500 animate-pulse" />
-                <div className="absolute inset-0 w-8 h-8 bg-yellow-500 rounded-full opacity-20 animate-ping"></div>
-              </div>
-              <div>
-                <h1 className="text-xl font-bold text-blue-900">AYURCARE</h1>
-                <p className="text-xs text-blue-700">Wellness Center</p>
-              </div>
+          <div className="flex justify-between items-center h-16">
+          <div className="flex items-center space-x-2 animate-fade-in">
+            <div className="relative flex items-center">
+              <img src={ayur} alt="" className="h-16 w-auto" />
+              <div className="absolute inset-0 w-8 h-8 bg-yellow-500 rounded-full opacity-20 animate-ping"></div>
             </div>
+            <div>
+              <h1 className="text-xl font-bold text-blue-900">AYURCARE</h1>
+              <p className="text-xs text-blue-700">Wellness Center</p>
+            </div>
+          </div>
+        </div>
+
             
             <div className="hidden md:flex space-x-8">
               <a href="#home" className="text-blue-900 hover:text-yellow-500 transition-colors duration-300 font-medium">Home</a>
