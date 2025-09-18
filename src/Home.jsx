@@ -16,7 +16,7 @@ const AyurcareWebsite = () => {
     { icon: <Heart className="w-6 h-6" />, title: "Baby Massage & Oil Bath", desc: "Gentle therapeutic massage and herbal oil bath for healthy newborn development" },
     { icon: <Star className="w-6 h-6" />, title: "Face Pack & Massage", desc: "Natural herbal face treatments for glowing skin and relaxation" },
     { icon: <Shield className="w-6 h-6" />, title: "Kesh Dhupan", desc: "Traditional hair care treatment with medicinal herbs and oils" },
-    { icon: <Home className="w-6 h-6" />, title: "Vetu Kuli", desc: "Therapeutic herbal steam bath for detoxification and healing" },
+    { icon: <Home className="w-6 h-6" />, title: "Vethu Kuli", desc: "Therapeutic herbal steam bath for detoxification and healing" },
     { icon: <Users className="w-6 h-6" />, title: "Abdominal Binding", desc: "Professional post-delivery abdominal support and body contouring" }
   ];
 
@@ -51,17 +51,17 @@ const AyurcareWebsite = () => {
     {
       duration: "20 Days",
       rooms: [
-        { type: "Normal Room (Ground Floor)", price: "₹41,000", ac: "₹42,500" },
-        { type: "Normal Room (1st Floor)", price: "₹44,500", ac: "₹49,000" },
-        { type: "Suite Room (Ground Floor)", price: "₹52,500", ac: "₹58,500" },
-        { type: "Suite Room (1st Floor)", price: "₹62,000", ac: "₹60,000" }
+        { type: "Normal Room (Ground Floor)", price: "₹42,500", ac: "₹50,500" },
+        { type: "Normal Room (1st Floor)", price: "₹41,000", ac: "₹49,000" },
+        { type: "Suite Room (Ground Floor)", price: "₹43,500", ac: "₹53,500" },
       ]
     },
     {
       duration: "30 Days",
       rooms: [
-        { type: "Normal Room (1st Floor)", price: "₹50,500", ac: "₹70,000" },
-        { type: "Suite Room", price: "₹72,000", ac: "₹74,000" }
+        { type: "Normal Room (Ground Floor)", price: "₹59,000", ac: "₹71,000" },
+        { type: "Normal Room (1st Floor)", price: "₹57,000", ac: "₹69,000" },
+        { type: "Suite Room (Ground Floor)", price: "₹64,000", ac: "₹75,000" },
       ]
     }
   ];
